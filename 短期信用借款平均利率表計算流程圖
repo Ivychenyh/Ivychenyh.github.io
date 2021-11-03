@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T06:37:24.682Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3dUxwo1VTrozy6b76aK5" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T06:43:34.402Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2uDopH8yK0tKmwinf3gw" version="15.6.6" type="github">
   <diagram id="-YW7QZLGtKjQjESIKph8" name="Page-1">
     <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,13 +89,13 @@
         <mxCell id="dOXxuKto8DEnpDKq_28K-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;" parent="1" source="dOXxuKto8DEnpDKq_28K-35" target="dOXxuKto8DEnpDKq_28K-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dOXxuKto8DEnpDKq_28K-35" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(248 , 249 , 250)&quot;&gt;將相同流水編號分群&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(248 , 249 , 250)&quot;&gt;逐筆執行&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;fira code&amp;#34; ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;LoanTransactionV1&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFDFA;fontSize=10;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="dOXxuKto8DEnpDKq_28K-35" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(248 , 249 , 250)&quot;&gt;將相同流水編號分群&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;fira code&quot;&gt;foreach SerialNo&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFDFA;fontSize=10;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="185" y="110" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dOXxuKto8DEnpDKq_28K-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;" parent="1" source="dOXxuKto8DEnpDKq_28K-48" target="dOXxuKto8DEnpDKq_28K-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dOXxuKto8DEnpDKq_28K-48" value="for int i = 0&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;設定初始值&lt;br&gt;X＝資料總筆數&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="dOXxuKto8DEnpDKq_28K-48" value="for int i = 0&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;設定初始值&lt;br&gt;X代表&lt;u&gt;資料總筆數&lt;/u&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="190" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dOXxuKto8DEnpDKq_28K-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;" parent="1" source="dOXxuKto8DEnpDKq_28K-49" target="dOXxuKto8DEnpDKq_28K-8" edge="1">
@@ -188,7 +188,7 @@
         <mxCell id="dOXxuKto8DEnpDKq_28K-90" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=10;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="575" y="772.5" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HJ-4O4_OcuKbQ5D0uBtF-2" value="&lt;div&gt;&amp;nbsp;【&lt;b&gt;初始值】&lt;/b&gt;&lt;/div&gt;&lt;div&gt;LoanStartDate=V1.LoanStartDate&lt;/div&gt;&lt;div&gt;LoenEndDate=V1.LoanEndDate&lt;/div&gt;&lt;div&gt;DUDT=V1.LoanEndDate&lt;/div&gt;&lt;div&gt;appropriationAmount&lt;/div&gt;&lt;div&gt;=V1.AppropriationAmountOfOriginalCurrency&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HJ-4O4_OcuKbQ5D0uBtF-2" value="&lt;div&gt;&amp;nbsp;【&lt;b&gt;初始值】&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;V1代表LoanTransactionV1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;LoanStartDate=V1.LoanStartDate&lt;/div&gt;&lt;div&gt;LoenEndDate=V1.LoanEndDate&lt;/div&gt;&lt;div&gt;DUDT=V1.LoanEndDate&lt;/div&gt;&lt;div&gt;appropriationAmount&lt;/div&gt;&lt;div&gt;=V1.AppropriationAmountOfOriginalCurrency&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="325" y="180" width="260" height="130" as="geometry" />
         </mxCell>
       </root>
