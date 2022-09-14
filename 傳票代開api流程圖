@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T03:42:04.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WpNj_VWLmdeoEDXa_y5G" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:09:02.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="amK9LDeTjg1r35FMjq-h" version="20.3.0" type="github">
   <diagram id="8x6Ln33bYKNtu93ooQ-1" name="Page-1">
-    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,26 +13,26 @@
         <mxCell id="OxARRbudPzm1GWW3-bjW-3" value="Web Api: ExternalVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="330" y="100" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OxARRbudPzm1GWW3-bjW-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;POST:取得程序控制資訊&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="OxARRbudPzm1GWW3-bjW-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;POST:取得程序控制資訊&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="160" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OxARRbudPzm1GWW3-bjW-5" value="POST:刪除傳票製票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="50" y="320" width="180" height="30" as="geometry" />
+        <mxCell id="OxARRbudPzm1GWW3-bjW-5" value="POST:刪除傳票製票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="50" y="300" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OxARRbudPzm1GWW3-bjW-6" value="POST:取得下一編號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="50" y="460" width="180" height="30" as="geometry" />
+        <mxCell id="OxARRbudPzm1GWW3-bjW-6" value="POST:取得下一編號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="50" y="420" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OxARRbudPzm1GWW3-bjW-7" value="POST:寫入傳票/製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="650" width="180" height="30" as="geometry" />
+        <mxCell id="OxARRbudPzm1GWW3-bjW-7" value="POST:寫入傳票/製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="62.5" y="560" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-8" value="http://HOST:XXXX/api/v1/ExternalVoucher/GetGLAProcessStep" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="160" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-9" value="http://HOST:XXXX/api/v1/ExternalVoucher/RemoveVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="320" width="310" height="30" as="geometry" />
+          <mxGeometry x="290" y="300" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-10" value="http://HOST:XXXX/api/v1/ExternalVoucher/GetNextNo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="460" width="310" height="30" as="geometry" />
+          <mxGeometry x="280" y="420" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-11" value="http://HOST:XXXX/api/v1/ExternalVoucher/VoucherImportAndRetrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="315" y="610" width="310" height="30" as="geometry" />
@@ -51,21 +51,21 @@
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="380.16999999999996" as="sourcePoint" />
-            <mxPoint x="710" y="380" as="targetPoint" />
+            <mxPoint x="280" y="360.16999999999996" as="sourcePoint" />
+            <mxPoint x="710" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-17" value="RequestModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="290" y="350" width="110" height="30" as="geometry" />
+          <mxGeometry x="290" y="330" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="521.17" as="sourcePoint" />
-            <mxPoint x="710" y="521" as="targetPoint" />
+            <mxPoint x="280" y="481.16999999999996" as="sourcePoint" />
+            <mxPoint x="710" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-19" value="RequestModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="290" y="490" width="110" height="30" as="geometry" />
+          <mxGeometry x="290" y="450" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -78,14 +78,14 @@
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="542" as="sourcePoint" />
-            <mxPoint x="280" y="542" as="targetPoint" />
+            <mxPoint x="710" y="502" as="sourcePoint" />
+            <mxPoint x="280" y="502" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="398" as="sourcePoint" />
-            <mxPoint x="280" y="398" as="targetPoint" />
+            <mxPoint x="710" y="370" as="sourcePoint" />
+            <mxPoint x="280" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
@@ -95,17 +95,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-25" value="ResponseModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="550" y="542" width="170" height="30" as="geometry" />
+          <mxGeometry x="550" y="502" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-26" value="ResponseModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="550" y="399" width="170" height="30" as="geometry" />
+          <mxGeometry x="550" y="369" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-27" value="ResponseModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="550" y="680" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-28" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;fontColor=#009900;horizontal=1;strokeColor=#009900;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="279" y="1000" as="sourcePoint" />
+            <mxPoint x="279" y="1360" as="sourcePoint" />
             <mxPoint x="279" y="140" as="targetPoint" />
             <Array as="points">
               <mxPoint x="279" y="140" />
@@ -115,7 +115,7 @@
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;fontColor=#009900;horizontal=1;strokeColor=#009900;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="1000" as="sourcePoint" />
+            <mxPoint x="710" y="1360" as="sourcePoint" />
             <mxPoint x="710" y="140" as="targetPoint" />
             <Array as="points">
               <mxPoint x="710" y="140" />
@@ -148,16 +148,16 @@
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="380" as="sourcePoint" />
-            <mxPoint x="840" y="380" as="targetPoint" />
+            <mxPoint x="740" y="360" as="sourcePoint" />
+            <mxPoint x="850" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="841.5" y="532" as="sourcePoint" />
-            <mxPoint x="726.5" y="532" as="targetPoint" />
+            <mxPoint x="841.5" y="492" as="sourcePoint" />
+            <mxPoint x="726.5" y="492" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="841.5" y="531" />
+              <mxPoint x="841.5" y="491" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -165,7 +165,7 @@
           <mxGeometry x="740" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-39" value="還原已代開資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
-          <mxGeometry x="750" y="350" width="90" height="30" as="geometry" />
+          <mxGeometry x="750" y="330" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-40" value="資料寫入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="760" y="630" width="60" height="30" as="geometry" />
@@ -175,10 +175,10 @@
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="845" y="400" as="sourcePoint" />
-            <mxPoint x="730" y="400" as="targetPoint" />
+            <mxPoint x="860" y="370" as="sourcePoint" />
+            <mxPoint x="745" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="845" y="399" />
+              <mxPoint x="860" y="369" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -210,19 +210,19 @@
           <mxGeometry x="60" y="680" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-50" value="QueryState=&amp;gt;{LocationId,MakingDocType,&lt;br&gt;VoucherType,VoucherKind,SystemId,DataYM}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="20" y="480" width="240" height="40" as="geometry" />
+          <mxGeometry x="20" y="440" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-51" value="QueryState=&amp;gt;{LocationId,MakingDocType,&lt;br&gt;VoucherKind,SystemId,DataYM,EndDate}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="35" y="340" width="230" height="50" as="geometry" />
+          <mxGeometry x="35" y="330" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-52" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QueryState=&amp;gt;{LocationId,VoucherKind,&lt;/span&gt;&lt;/div&gt;SystemId,DataYM}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="45" y="190" width="215" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-53" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px;&quot; class=&quot;hljs-attr&quot;&gt;Data&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font color=&quot;#880000&quot;&gt;序號...&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="735" y="530" width="130" height="40" as="geometry" />
+          <mxGeometry x="735" y="490" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-54" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px;&quot; class=&quot;hljs-attr&quot;&gt;Data&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font color=&quot;#880000&quot;&gt;處理結果&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;...&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="735" y="399" width="160" height="40" as="geometry" />
+          <mxGeometry x="750" y="364" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-55" value="RequestModel" style="swimlane;startSize=23;" parent="1" collapsed="1" vertex="1">
           <mxGeometry x="284" y="193" width="170" height="30" as="geometry">
@@ -248,12 +248,12 @@
         </mxCell>
         <mxCell id="2EZqMyoFz7xcHlgyaPcM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="519" as="sourcePoint" />
-            <mxPoint x="850" y="519" as="targetPoint" />
+            <mxPoint x="730" y="479" as="sourcePoint" />
+            <mxPoint x="850" y="479" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2EZqMyoFz7xcHlgyaPcM-4" value="取得序號並鎖住控制檔（程序控制/製票控制）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
-          <mxGeometry x="735" y="485" width="145" height="30" as="geometry" />
+          <mxGeometry x="735" y="445" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z75iRjt_focw6rE3AkCf-1" value="http://HOST:XXXX/api/v1/ExternalVoucher/ImportVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="740" width="310" height="30" as="geometry" />
@@ -312,13 +312,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EX8TX0WRM0LwA5RUcue4-1" value="方法一：執行完成回傳Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="EX8TX0WRM0LwA5RUcue4-1" value="方法一：由各系統編碼，執行完成回傳Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="122.5" y="595" width="137.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EX8TX0WRM0LwA5RUcue4-3" value="方法二：回傳執行訊息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="EX8TX0WRM0LwA5RUcue4-3" value="方法二：由各系統編碼，執行完成回傳結果訊息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="740" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=2;exitX=0.08;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OxARRbudPzm1GWW3-bjW-34">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=2;exitX=0.08;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OxARRbudPzm1GWW3-bjW-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="900" as="targetPoint" />
             <mxPoint x="30" y="660" as="sourcePoint" />
@@ -327,43 +327,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-2" value="方法三：由總帳系統編碼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-2" value="方法三：由總帳系統編碼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="870" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-4" value="http://HOST:XXXX/api/v1/ExternalVoucher/CreateVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-4" value="http://HOST:XXXX/api/v1/ExternalVoucher/CreateVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="860" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-5" value="RequestModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-5" value="RequestModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="290" y="890" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="920.1700000000001" as="sourcePoint" />
             <mxPoint x="710" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="930" as="sourcePoint" />
             <mxPoint x="280" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-8" value="ResponseModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-8" value="ResponseModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="540" y="930" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="735" y="919" as="sourcePoint" />
             <mxPoint x="855" y="919" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-10" value="資料寫入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-10" value="資料寫入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="760" y="890" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-11" value="製票檔/傳票檔" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-11" value="製票檔/傳票檔" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="870" y="890" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="852.5" y="930.5" as="sourcePoint" />
             <mxPoint x="737.5" y="930.5" as="targetPoint" />
@@ -372,10 +372,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-13" value="傳票/製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-13" value="傳票/製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="760" y="930" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px;&quot; class=&quot;hljs-attr&quot;&gt;Data&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font color=&quot;#880000&quot;&gt;IEnumerable&amp;lt;VoucherInterfaceModel&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;...&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px;&quot; class=&quot;hljs-attr&quot;&gt;Data&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font color=&quot;#880000&quot;&gt;IEnumerable&amp;lt;VoucherInterfaceModel&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; font-size: 11px; background-color: rgb(248, 249, 250);&quot;&gt;...&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: monospace; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="720" y="950" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
