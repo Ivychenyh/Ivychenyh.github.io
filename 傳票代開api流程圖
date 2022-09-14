@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T07:09:02.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="amK9LDeTjg1r35FMjq-h" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:10:39.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Cd1psF0UkOU0QHf0bzPv" version="20.3.0" type="github">
   <diagram id="8x6Ln33bYKNtu93ooQ-1" name="Page-1">
     <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="50" y="420" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-7" value="POST:寫入傳票/製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="62.5" y="560" width="180" height="30" as="geometry" />
+          <mxGeometry x="55" y="530" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-8" value="http://HOST:XXXX/api/v1/ExternalVoucher/GetGLAProcessStep" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="160" width="310" height="30" as="geometry" />
@@ -132,9 +132,13 @@
             <mxPoint x="710" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OxARRbudPzm1GWW3-bjW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=2;" parent="1" source="OxARRbudPzm1GWW3-bjW-34" edge="1">
+        <mxCell id="OxARRbudPzm1GWW3-bjW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#808080;strokeColor=#A9C4EB;strokeWidth=2;exitX=0.51;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OxARRbudPzm1GWW3-bjW-34" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="625" as="targetPoint" />
+            <mxPoint x="270" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="649" />
+              <mxPoint x="70" y="660" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-34" value="傳票/製票資料" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#808080;" parent="1" vertex="1">
@@ -207,7 +211,7 @@
           <mxGeometry x="330" width="295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QueryState=&amp;gt;&lt;/span&gt;&lt;/div&gt;IEnumerable&amp;lt;VoucherInterfaceModel&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="680" width="220" height="40" as="geometry" />
+          <mxGeometry x="50" y="555" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxARRbudPzm1GWW3-bjW-50" value="QueryState=&amp;gt;{LocationId,MakingDocType,&lt;br&gt;VoucherType,VoucherKind,SystemId,DataYM}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="20" y="440" width="240" height="40" as="geometry" />
@@ -313,7 +317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EX8TX0WRM0LwA5RUcue4-1" value="方法一：由各系統編碼，執行完成回傳Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="122.5" y="595" width="137.5" height="30" as="geometry" />
+          <mxGeometry x="132.5" y="620" width="137.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EX8TX0WRM0LwA5RUcue4-3" value="方法二：由各系統編碼，執行完成回傳結果訊息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="740" width="150" height="30" as="geometry" />
