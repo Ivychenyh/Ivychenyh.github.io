@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T07:10:39.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Cd1psF0UkOU0QHf0bzPv" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:11:25.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6hnJm9m8zlhPTJa5hd3Q" version="20.3.0" type="github">
   <diagram id="8x6Ln33bYKNtu93ooQ-1" name="Page-1">
     <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -331,8 +331,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYLWpGe_j58_mdkCt2mm-2" value="方法三：由總帳系統編碼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="870" width="140" height="30" as="geometry" />
+        <mxCell id="WYLWpGe_j58_mdkCt2mm-2" value="方法三：由總帳系統編碼，執行完回傳Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="35" y="860" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WYLWpGe_j58_mdkCt2mm-4" value="http://HOST:XXXX/api/v1/ExternalVoucher/CreateVoucher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="860" width="310" height="30" as="geometry" />
