@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T02:50:57.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1q6CoDmNq9cWMVrEPk8T" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T03:34:37.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5N3HIWv0-dWZN8cqqcUd" version="20.3.0" type="github">
   <diagram id="8x6Ln33bYKNtu93ooQ-1" name="Page-1">
     <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -388,9 +388,6 @@
         <mxCell id="_GCe_528jvIFkO-htY07-4" value="POST:作廢單張製票資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="52.5" y="1170" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_GCe_528jvIFkO-htY07-5" value="QueryState=&amp;gt;{LocationId,&lt;br&gt;VoucherNo,DataYM}&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="47.5" y="1195" width="220" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="_GCe_528jvIFkO-htY07-6" value="RequestModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="300" y="1030" width="110" height="30" as="geometry" />
         </mxCell>
@@ -484,8 +481,11 @@
         <mxCell id="_GCe_528jvIFkO-htY07-28" value="http://HOST:XXXX/api/v1/ExternalVoucher/Cancel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="284" y="1165" width="266" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rPgEn4pn1nV4JQTGwUX9-4" value="QueryState=&amp;gt;{LocationId,&lt;br&gt;VoucherNo,DataYM}&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="rPgEn4pn1nV4JQTGwUX9-4" value="QueryState=&amp;gt;{LocationId,DataYM,&lt;br&gt;VoucherKind,SystemId,VoucherNo}&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="1025" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPgEn4pn1nV4JQTGwUX9-5" value="QueryState=&amp;gt;{LocationId,DataYM,&lt;br&gt;VoucherKind,SystemId,VoucherNo}&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="1200" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
